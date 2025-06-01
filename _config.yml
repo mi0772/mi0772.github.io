@@ -3,7 +3,8 @@ description: Un blog tecnico, senza fronzoli.
 markdown: kramdown
 
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+
 plugins:
-  - jekyll-remote-themelugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
