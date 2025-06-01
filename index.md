@@ -1,8 +1,13 @@
 ---
-layout: home
+layout: default
 title: Home
-author_profile: true
 ---
 
-Benvenuto nel mio blog personale.  
-Scrivo di programmazione, vita da dev e di quanto sia bello il linguaggio C.
+# Benvenuto su Carlo's Dev Blog
+
+{% for post in site.posts %}
+## [{{ post.title }}]({{ post.url }})
+🕒 {{ post.date | date: "%d/%m/%Y %H:%M" }}
+{{ post.excerpt }}
+---
+{% endfor %}
