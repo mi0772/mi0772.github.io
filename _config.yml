@@ -1,6 +1,6 @@
 title: Carlo's Dev Blog
 description: Un blog tecnico, senza fronzoli.
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: mmistakes/minimal-mistakes@4.20.2
 markdown: kramdown
 plugins:
   - jekyll-remote-theme
