@@ -1,7 +1,13 @@
 title: Carlo's Dev Blog
 description: Un blog tecnico, senza fronzoli.
-theme: jekyll-theme-primer
+remote_theme: pages-themes/primer@v0.6.0
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# GitHub Pages settings
+github:
+  is_project_page: false
