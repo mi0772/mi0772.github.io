@@ -1,6 +1,6 @@
 title: Carlo's Dev Blog
 description: Un blog tecnico, senza fronzoli.
-theme: minima
+theme: jekyll-theme-primer
 markdown: kramdown
 plugins:
   - jekyll-feed
